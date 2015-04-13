@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+               BuildableName = "PlayThatSongAgain WatchKit App.app"
+               BlueprintName = "PlayThatSongAgain WatchKit App"
+               ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8346F861ADB1D50009073CD"
                BuildableName = "PlayThatSongAgain.app"
                BlueprintName = "PlayThatSongAgain"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8346F9B1ADB1D50009073CD"
-               BuildableName = "PlayThatSongAgainTests.xctest"
-               BlueprintName = "PlayThatSongAgainTests"
+               BlueprintIdentifier = "A8346FAF1ADB1D77009073CD"
+               BuildableName = "PlayThatSongAgain WatchKit Extension.appex"
+               BlueprintName = "PlayThatSongAgain WatchKit Extension"
                ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8346F9B1ADB1D50009073CD"
-               BuildableName = "PlayThatSongAgainTests.xctest"
-               BlueprintName = "PlayThatSongAgainTests"
-               ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8346F861ADB1D50009073CD"
-            BuildableName = "PlayThatSongAgain.app"
-            BlueprintName = "PlayThatSongAgain"
+            BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+            BuildableName = "PlayThatSongAgain WatchKit App.app"
+            BlueprintName = "PlayThatSongAgain WatchKit App"
             ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/PlayThatSongAgain">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8346F861ADB1D50009073CD"
-            BuildableName = "PlayThatSongAgain.app"
-            BlueprintName = "PlayThatSongAgain"
+            BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+            BuildableName = "PlayThatSongAgain WatchKit App.app"
+            BlueprintName = "PlayThatSongAgain WatchKit App"
             ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+            BuildableName = "PlayThatSongAgain WatchKit App.app"
+            BlueprintName = "PlayThatSongAgain WatchKit App"
+            ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/PlayThatSongAgain">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8346F861ADB1D50009073CD"
-            BuildableName = "PlayThatSongAgain.app"
-            BlueprintName = "PlayThatSongAgain"
+            BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+            BuildableName = "PlayThatSongAgain WatchKit App.app"
+            BlueprintName = "PlayThatSongAgain WatchKit App"
             ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A8346FB91ADB1D78009073CD"
+            BuildableName = "PlayThatSongAgain WatchKit App.app"
+            BlueprintName = "PlayThatSongAgain WatchKit App"
+            ReferencedContainer = "container:PlayThatSongAgain.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

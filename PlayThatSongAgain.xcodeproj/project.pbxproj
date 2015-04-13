@@ -13,6 +13,17 @@
 		A8346F941ADB1D50009073CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8346F931ADB1D50009073CD /* Images.xcassets */; };
 		A8346F971ADB1D50009073CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8346F951ADB1D50009073CD /* LaunchScreen.xib */; };
 		A8346FA31ADB1D50009073CD /* PlayThatSongAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8346FA21ADB1D50009073CD /* PlayThatSongAgainTests.swift */; };
+		A8346FB51ADB1D78009073CD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8346FB41ADB1D78009073CD /* InterfaceController.swift */; };
+		A8346FB71ADB1D78009073CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8346FB61ADB1D78009073CD /* Images.xcassets */; };
+		A8346FBB1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A8346FBA1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app */; };
+		A8346FC31ADB1D78009073CD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8346FC11ADB1D78009073CD /* Interface.storyboard */; };
+		A8346FC51ADB1D78009073CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8346FC41ADB1D78009073CD /* Images.xcassets */; };
+		A8346FC81ADB1D78009073CD /* PlayThatSongAgain WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8346FB01ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8346FD31ADB1EEF009073CD /* CLASSICAL SOLITUDE.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8346FD01ADB1EEF009073CD /* CLASSICAL SOLITUDE.wav */; };
+		A8346FD41ADB1EEF009073CD /* Open Source - Sending My Signal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8346FD11ADB1EEF009073CD /* Open Source - Sending My Signal.mp3 */; };
+		A8346FD51ADB1EEF009073CD /* Timothy Pinkham - The Knolls of Doldesh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8346FD21ADB1EEF009073CD /* Timothy Pinkham - The Knolls of Doldesh.mp3 */; };
+		A8346FD71ADB1F28009073CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8346FD61ADB1F28009073CD /* AVFoundation.framework */; };
+		A8346FD91ADB2518009073CD /* WatchKitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8346FD81ADB2518009073CD /* WatchKitInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +34,35 @@
 			remoteGlobalIDString = A8346F861ADB1D50009073CD;
 			remoteInfo = PlayThatSongAgain;
 		};
+		A8346FBC1ADB1D78009073CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8346F7F1ADB1D50009073CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8346FB91ADB1D78009073CD;
+			remoteInfo = "PlayThatSongAgain WatchKit App";
+		};
+		A8346FC61ADB1D78009073CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8346F7F1ADB1D50009073CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8346FAF1ADB1D77009073CD;
+			remoteInfo = "PlayThatSongAgain WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8346FCF1ADB1D78009073CD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8346FC81ADB1D78009073CD /* PlayThatSongAgain WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A8346F871ADB1D50009073CD /* PlayThatSongAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayThatSongAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +75,19 @@
 		A8346F9C1ADB1D50009073CD /* PlayThatSongAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayThatSongAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8346FA11ADB1D50009073CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8346FA21ADB1D50009073CD /* PlayThatSongAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayThatSongAgainTests.swift; sourceTree = "<group>"; };
+		A8346FB01ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PlayThatSongAgain WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8346FB31ADB1D78009073CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8346FB41ADB1D78009073CD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A8346FB61ADB1D78009073CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8346FBA1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayThatSongAgain WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8346FC01ADB1D78009073CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8346FC21ADB1D78009073CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A8346FC41ADB1D78009073CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8346FD01ADB1EEF009073CD /* CLASSICAL SOLITUDE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "CLASSICAL SOLITUDE.wav"; sourceTree = "<group>"; };
+		A8346FD11ADB1EEF009073CD /* Open Source - Sending My Signal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Open Source - Sending My Signal.mp3"; sourceTree = "<group>"; };
+		A8346FD21ADB1EEF009073CD /* Timothy Pinkham - The Knolls of Doldesh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Timothy Pinkham - The Knolls of Doldesh.mp3"; sourceTree = "<group>"; };
+		A8346FD61ADB1F28009073CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8346FD81ADB2518009073CD /* WatchKitInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchKitInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +95,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8346FD71ADB1F28009073CD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A8346F991ADB1D50009073CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8346FAD1ADB1D77009073CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,6 +121,8 @@
 			children = (
 				A8346F891ADB1D50009073CD /* PlayThatSongAgain */,
 				A8346F9F1ADB1D50009073CD /* PlayThatSongAgainTests */,
+				A8346FB11ADB1D78009073CD /* PlayThatSongAgain WatchKit Extension */,
+				A8346FBE1ADB1D78009073CD /* PlayThatSongAgain WatchKit App */,
 				A8346F881ADB1D50009073CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +132,8 @@
 			children = (
 				A8346F871ADB1D50009073CD /* PlayThatSongAgain.app */,
 				A8346F9C1ADB1D50009073CD /* PlayThatSongAgainTests.xctest */,
+				A8346FB01ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension.appex */,
+				A8346FBA1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				A8346F8C1ADB1D50009073CD /* AppDelegate.swift */,
+				A8346FD81ADB2518009073CD /* WatchKitInfo.swift */,
 				A8346F8E1ADB1D50009073CD /* ViewController.swift */,
 				A8346F901ADB1D50009073CD /* Main.storyboard */,
 				A8346F931ADB1D50009073CD /* Images.xcassets */,
@@ -90,6 +155,10 @@
 		A8346F8A1ADB1D50009073CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8346FD61ADB1F28009073CD /* AVFoundation.framework */,
+				A8346FD01ADB1EEF009073CD /* CLASSICAL SOLITUDE.wav */,
+				A8346FD11ADB1EEF009073CD /* Open Source - Sending My Signal.mp3 */,
+				A8346FD21ADB1EEF009073CD /* Timothy Pinkham - The Knolls of Doldesh.mp3 */,
 				A8346F8B1ADB1D50009073CD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +181,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A8346FB11ADB1D78009073CD /* PlayThatSongAgain WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8346FB41ADB1D78009073CD /* InterfaceController.swift */,
+				A8346FB61ADB1D78009073CD /* Images.xcassets */,
+				A8346FB21ADB1D78009073CD /* Supporting Files */,
+			);
+			path = "PlayThatSongAgain WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A8346FB21ADB1D78009073CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8346FB31ADB1D78009073CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8346FBE1ADB1D78009073CD /* PlayThatSongAgain WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A8346FC11ADB1D78009073CD /* Interface.storyboard */,
+				A8346FC41ADB1D78009073CD /* Images.xcassets */,
+				A8346FBF1ADB1D78009073CD /* Supporting Files */,
+			);
+			path = "PlayThatSongAgain WatchKit App";
+			sourceTree = "<group>";
+		};
+		A8346FBF1ADB1D78009073CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8346FC01ADB1D78009073CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +227,12 @@
 				A8346F831ADB1D50009073CD /* Sources */,
 				A8346F841ADB1D50009073CD /* Frameworks */,
 				A8346F851ADB1D50009073CD /* Resources */,
+				A8346FCF1ADB1D78009073CD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A8346FC71ADB1D78009073CD /* PBXTargetDependency */,
 			);
 			name = PlayThatSongAgain;
 			productName = PlayThatSongAgain;
@@ -150,6 +257,39 @@
 			productReference = A8346F9C1ADB1D50009073CD /* PlayThatSongAgainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A8346FAF1ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8346FCC1ADB1D78009073CD /* Build configuration list for PBXNativeTarget "PlayThatSongAgain WatchKit Extension" */;
+			buildPhases = (
+				A8346FAC1ADB1D77009073CD /* Sources */,
+				A8346FAD1ADB1D77009073CD /* Frameworks */,
+				A8346FAE1ADB1D77009073CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8346FBD1ADB1D78009073CD /* PBXTargetDependency */,
+			);
+			name = "PlayThatSongAgain WatchKit Extension";
+			productName = "PlayThatSongAgain WatchKit Extension";
+			productReference = A8346FB01ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A8346FB91ADB1D78009073CD /* PlayThatSongAgain WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8346FC91ADB1D78009073CD /* Build configuration list for PBXNativeTarget "PlayThatSongAgain WatchKit App" */;
+			buildPhases = (
+				A8346FB81ADB1D78009073CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlayThatSongAgain WatchKit App";
+			productName = "PlayThatSongAgain WatchKit App";
+			productReference = A8346FBA1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +305,12 @@
 					A8346F9B1ADB1D50009073CD = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = A8346F861ADB1D50009073CD;
+					};
+					A8346FAF1ADB1D77009073CD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A8346FB91ADB1D78009073CD = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +329,8 @@
 			targets = (
 				A8346F861ADB1D50009073CD /* PlayThatSongAgain */,
 				A8346F9B1ADB1D50009073CD /* PlayThatSongAgainTests */,
+				A8346FAF1ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension */,
+				A8346FB91ADB1D78009073CD /* PlayThatSongAgain WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +342,9 @@
 			files = (
 				A8346F921ADB1D50009073CD /* Main.storyboard in Resources */,
 				A8346F971ADB1D50009073CD /* LaunchScreen.xib in Resources */,
+				A8346FD31ADB1EEF009073CD /* CLASSICAL SOLITUDE.wav in Resources */,
+				A8346FD41ADB1EEF009073CD /* Open Source - Sending My Signal.mp3 in Resources */,
+				A8346FD51ADB1EEF009073CD /* Timothy Pinkham - The Knolls of Doldesh.mp3 in Resources */,
 				A8346F941ADB1D50009073CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +353,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8346FAE1ADB1D77009073CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8346FB71ADB1D78009073CD /* Images.xcassets in Resources */,
+				A8346FBB1ADB1D78009073CD /* PlayThatSongAgain WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8346FB81ADB1D78009073CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8346FC31ADB1D78009073CD /* Interface.storyboard in Resources */,
+				A8346FC51ADB1D78009073CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +383,7 @@
 			files = (
 				A8346F8F1ADB1D50009073CD /* ViewController.swift in Sources */,
 				A8346F8D1ADB1D50009073CD /* AppDelegate.swift in Sources */,
+				A8346FD91ADB2518009073CD /* WatchKitInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +395,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8346FAC1ADB1D77009073CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8346FB51ADB1D78009073CD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +410,16 @@
 			isa = PBXTargetDependency;
 			target = A8346F861ADB1D50009073CD /* PlayThatSongAgain */;
 			targetProxy = A8346F9D1ADB1D50009073CD /* PBXContainerItemProxy */;
+		};
+		A8346FBD1ADB1D78009073CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8346FB91ADB1D78009073CD /* PlayThatSongAgain WatchKit App */;
+			targetProxy = A8346FBC1ADB1D78009073CD /* PBXContainerItemProxy */;
+		};
+		A8346FC71ADB1D78009073CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8346FAF1ADB1D77009073CD /* PlayThatSongAgain WatchKit Extension */;
+			targetProxy = A8346FC61ADB1D78009073CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +438,14 @@
 				A8346F961ADB1D50009073CD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A8346FC11ADB1D78009073CD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8346FC21ADB1D78009073CD /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +586,62 @@
 			};
 			name = Release;
 		};
+		A8346FCA1ADB1D78009073CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PlayThatSongAgain_WatchKit_Extension;
+				INFOPLIST_FILE = "PlayThatSongAgain WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A8346FCB1ADB1D78009073CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PlayThatSongAgain_WatchKit_Extension;
+				INFOPLIST_FILE = "PlayThatSongAgain WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A8346FCD1ADB1D78009073CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlayThatSongAgain WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8346FCE1ADB1D78009073CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PlayThatSongAgain WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +667,22 @@
 			buildConfigurations = (
 				A8346FAA1ADB1D50009073CD /* Debug */,
 				A8346FAB1ADB1D50009073CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8346FC91ADB1D78009073CD /* Build configuration list for PBXNativeTarget "PlayThatSongAgain WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8346FCA1ADB1D78009073CD /* Debug */,
+				A8346FCB1ADB1D78009073CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8346FCC1ADB1D78009073CD /* Build configuration list for PBXNativeTarget "PlayThatSongAgain WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8346FCD1ADB1D78009073CD /* Debug */,
+				A8346FCE1ADB1D78009073CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
